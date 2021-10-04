@@ -12,5 +12,5 @@ terraform {
 
 provider "aws" {
   region  = "us-west-1" # variables can be injected from files, too
-  profile = "tf_workshop"
+  //profile = "tf_workshop"
 }
