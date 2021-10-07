@@ -64,7 +64,7 @@ resource "aws_launch_configuration" "launch_configuration" {
   name_prefix     = "terraform-workshop-${var.env}-${local.ec2_instance_type}-${data.aws_ami.latest_amazon_linux.id}-"
   image_id        = data.aws_ami.latest_amazon_linux.id
   instance_type   = local.ec2_instance_type
-  key_name        = var.key_name
+  //key_name        = var.key_name
   security_groups = [aws_security_group.terraform_workshop_app_sg.id]
   user_data       = templatefile("${path.module}/templates/userdata.sh", {})
 

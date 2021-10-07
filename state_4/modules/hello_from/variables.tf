@@ -13,6 +13,7 @@ variable "app_port" {
   type = string
 }
 
+
 variable "subnets_list" {
   type = list(string)
 }
