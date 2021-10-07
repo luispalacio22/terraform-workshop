@@ -2,7 +2,7 @@ profile = "tf_workshop"
 
 region = "us-west-1"
 
-responsible = "stiven.agudeloo"
+responsible = "luispalacio11c@gmail.com"
 
 vpc_id = "vpc-e7c66f81"
 
